@@ -376,7 +376,7 @@ td:last-child{
 
 .recent-content button{
     background: #006A50;
-    font-size: 500;
+    font-weight: 500;
     border: none;
     margin-top: 20px;
     color: white;
@@ -394,5 +394,91 @@ td:last-child{
 .recent-content:hover{
     background-color: #E3E3E3;
 }
+/* Recent-News section code start */
 
-/* Recent-News section code end */
+/* donate section code start */
+
+.donate {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+  .donate h3 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .donate-title {
+    text-align: center;
+  }
+  
+  .donate-title > p {
+    text-align: center;
+  }
+  
+  .donate-main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35px;
+  }
+  
+  .donate-card {
+    background-color: #02a705;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #fff;
+    border-radius: 16px;
+  }
+  
+  .active {
+    background-color: #c6e4d6;
+  }
+  
+  .donate-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .donate-input input[type="text"] {
+    padding: 20px 40px;
+    width: 857px;
+    background: #fff;
+    margin-top: 30px;
+    border: none;
+    text-align: center;
+    outline: none;
+  }
+  
+  .donate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .donate-button button {
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    background: #006a50;
+    padding: 17px 34px;
+    color: #e7f3ec;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .donate-button button:hover {
+    background-color: #01af84;
+    color: white;
+    transition: all 300ms;
+  }
+  
+  .donate-card:hover {
+    background-color: #c6e4d6;
+    transition: all 400ms;
+  }
+/* donate section code end */
+
