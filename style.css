@@ -482,3 +482,69 @@ td:last-child{
   }
 /* donate section code end */
 
+/* newsletter section code start  */
+.newsletter{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+.newsletter h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.newsletter p {
+    text-align: center;
+    margin-top: 2px;
+}
+  
+.newsletter input[type="text"] {
+    padding: 17px 22px;
+    width: 30%;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+}
+  
+.newsletter button {
+    border-radius: 0px 8px 8px 0px;
+    background: #006a50;
+    padding: 17px 34px;
+    color: #e7f3ec;
+    cursor: pointer;
+    border: none;
+}
+  
+.newsletter-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+  
+.newsletter-box {
+    background: #c6e4d6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    margin-bottom: 70px;
+}
+  
+.newsletter-hero {
+    margin-top: 20px;
+  }
+
+.newsletter button:hover{
+    background-color: #01af84;
+    color: white;
+    transition: all 300ms;
+}
+
+.newsletter-box:hover {
+    background-color: #d4d9d7;
+    transition: all 400ms;
+}
+
+/* newsletter section code end  */
