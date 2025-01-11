@@ -548,3 +548,32 @@ td:last-child{
 }
 
 /* newsletter section code end  */
+
+/* footer section code start */
+
+footer{
+    padding: 50px 160px;
+    background: #fff;
+}
+  
+footer > .footer-title h3{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+}
+  
+.footer-icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 0.5s;
+    
+}
+
+.footer-icon img:hover {
+    width: 20px;
+}
+  
+/* footer section code end */
