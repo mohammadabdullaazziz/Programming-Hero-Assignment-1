@@ -394,7 +394,8 @@ td:last-child{
 .recent-content:hover{
     background-color: #E3E3E3;
 }
-/* Recent-News section code start */
+
+/* Recent-News section code end */
 
 /* donate section code start */
 
@@ -569,7 +570,7 @@ footer > .footer-title h3{
     align-items: center;
     gap: 20px;
     transition: 0.5s;
-    
+
 }
 
 .footer-icon img:hover {
