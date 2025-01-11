@@ -11,6 +11,8 @@ body{
     background-color: #F5F5F5;
 }
 
+/* header section code start */
+
 header > nav{
     display: flex;
     justify-content: space-between;
@@ -45,8 +47,74 @@ header > nav > button:hover{
     background-color: #01AF84;
     color: white;
 }
+/* header section code end */
 
+/* hero-area section code start  */
+.hero-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1e4d3;
+    width: 85%;
+    margin: 0 auto;
+    padding: 90px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
 
+.hero-area .hero-content{
+    width: 35%;
+    height: auto;
+    background-color: transparent;
+}
+
+.hero-area:hover{
+  background-color: #D4D9D7;
+}
+
+.hero-content .hero-title{
+    color: #7F7C7C;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.hero-content .hero-description{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.hero-content button{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #006A50;
+    padding: 17px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero-content button:hover{
+    background-color: #01AF84;
+}
+
+.hero-area .hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.hero-area .hero-image img{
+    width: 60%;
+}
+/* hero-area section code end  */
 
 
 
