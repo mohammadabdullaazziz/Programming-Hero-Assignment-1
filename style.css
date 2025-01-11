@@ -267,4 +267,62 @@ color: white;
 
 /* Vision of Future section code end */
 
+/* opinion section code start */
+.opinion-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 
+.section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-section-details{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    font-size: 1rem;
+    padding: 15px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+select{
+    background-color: #E7F3EC;
+    border: 1px solid #006A50;
+    font-size: 1rem;
+    color: #006A50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 7px 13px;
+}
+
+select option{
+    color: black;
+}
+
+table tr:hover td{
+    background-color: #F6F6F6;
+}
+
+
+td:first-child{
+    width: 100%;
+}
+
+td:last-child{
+    text-align: center;
+}
+/* opinion section code end */
