@@ -115,6 +115,8 @@ header > nav > button:hover{
     width: 60%;
 }
 /* hero-area section code end  */
+
+/* Pillars section code start */
 .pillars{
     width: 85%;
     margin: 0 auto;
@@ -148,8 +150,121 @@ header > nav > button:hover{
     color: #817575;
     margin-top: 10px;
 }
-/* Pillars section code start */
 
 /* Pillars section code end */
+
+/* Vision of Future section code start */
+
+.vision{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.vision-title h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vision-parent{
+    display: flex;
+    gap: 24px;
+    margin-top: 45px;
+}
+
+.vision-parent > div{
+    border-radius: 16px;
+    padding: 32px;
+    transition: 0.5s;
+}
+
+.vision-item-one{
+    border: 0px solid #5490F5;
+    background-color: rgb(84, 144, 245, 0.2);
+}
+
+.vision-item-two{
+    border: 0px solid #09A15C;
+    background-color: #C6E4D6;
+}
+
+.vision-item-three{
+    border: 0px solid #FFC239;
+    background-color: #F7EBCF;
+}
+
+.vision-parent > div > button{
+    padding: 11px 20px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-top: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-one{
+    background: #5490F5;
+}
+
+.btn-two{
+    background: #09A15C;
+}
+
+.btn-three{
+    background: #FFC239;
+}
+
+.vision-title > p{
+    margin-top: 25px;
+}
+
+.vision-parent > div > h3, p{
+    margin-top: 15px;
+}
+
+.vision-parent > div > button:hover{
+    background-color: #007BFF;
+}
+
+.vision-parent > div:hover{
+background-color: #343A40;
+color: white;
+}
+
+.quotes-section{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  background-image: url("images/fi_2087863.png");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding: 48px 24px;
+  border-radius: 16px;
+  background-position-x: 23px;
+  background-position-y: 35px;
+  transition: all 300ms ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+   
+
+.quotes-main{
+    margin-top: 13px;
+}
+
+.quotes-content > h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.quotes-content p{
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Vision of Future section code end */
 
 
