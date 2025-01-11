@@ -115,6 +115,41 @@ header > nav > button:hover{
     width: 60%;
 }
 /* hero-area section code end  */
+.pillars{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.pillars h1{
+    font-size: 40px;
+    font-weight: bold;
+}
 
+.pillars-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.card-item{
+    background-color: white;
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #d5d5d5;
+}
+
+.card-item h3{
+    color: #0E0E0E;
+    margin-top: 10px;
+}
+
+.card p{
+    color: #817575;
+    margin-top: 10px;
+}
+/* Pillars section code start */
+
+/* Pillars section code end */
 
 
